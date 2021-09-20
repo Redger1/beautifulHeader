@@ -1,0 +1,52 @@
+/* .Facts */
+.facts {
+	background-color: #9447e1;
+	color: white;
+	padding: 75px 0;
+}
+.facts h2 {
+	margin-top: 0;
+}
+.specific-facts {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+.specific-facts h1 {
+	font-size: 60pt;
+}
+.specific-facts p {
+	font-size: 15pt;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: Lato-reg;
+}
+/* ______ */
+
+/* Jobs */
+.jobs-quote {
+	background-color: #666666;
+	color: white;
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.jobs-quote h1 {
+	text-transform: uppercase;
+	font-size: 30pt;
+	font-style: italic;
+	font-family: Georgia;
+}
+.jobs-quote h2 {
+	text-transform: uppercase;
+	font-size: 22pt;
+	font-family: Lato-it;
+	margin-top: 25px;
+}
+.jobs-quote hr {
+	width: 60px;
+	margin: auto;
+	margin-top: 30px;
+}
+/* ____ */

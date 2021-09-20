@@ -1,0 +1,58 @@
+/* Short info */
+.first-info {
+	position: relative;
+}
+.second-info {
+	position: relative;
+}
+.third-info {
+	position: relative;
+}
+.short-info {
+	text-align: left;
+	width: 60%;
+	margin: auto;
+	position: relative;
+}
+.short-info img {
+	position: absolute;
+	left: -5%;
+	top: -5%;
+	height: 40%;
+}
+.short-info h3 {
+	margin-bottom: 20px;
+	font-size: 18pt;
+	font-family: Lato-b;
+	text-transform: uppercase;
+}
+.short-info p {
+	margin: 0 0 25px 0;
+	font-size: 16pt;
+	font-family: Lato-reg;
+}
+.short-info button {
+	text-transform: uppercase;
+	font-size: 13pt;
+	font-family: Lato-reg;
+
+	background: none;
+	border: 1.5px solid #9966cc;
+	border-radius: 15px;
+
+	margin-top: 50px;
+	height: 40px;
+	padding: 0 25px;
+}
+.short-info button:hover {
+	background-color: #9966cc;
+	cursor: pointer;
+}
+/* __________ */
+
+/* Black Nav */
+.black-nav li a {
+	text-transform: uppercase;
+	color: black !important;
+}
+/* _________ */

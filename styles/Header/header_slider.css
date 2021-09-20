@@ -1,0 +1,46 @@
+/* Header Slider */
+.title {
+	margin-top: 185px;
+}
+.title h1 {
+	font-size: 100pt;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Lato-b;
+}
+.title h3 {
+	font-size: 30pt;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Lato-b;
+}
+.title p {
+	width: 60%;
+	margin: auto;
+	margin-top: 75px;
+	text-align: center;
+	font-size: 18pt;
+}
+.buttons {
+	color: white;
+	text-transform: uppercase;
+	font-size: 13pt;
+	background: none;
+	border: 1.5px solid white;
+
+	width: 8%;
+	margin-top: 32px;
+
+	height: 40px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+	border-radius: 15px;
+}
+.title button:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+/* _____________ */

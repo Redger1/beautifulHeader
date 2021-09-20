@@ -1,0 +1,136 @@
+/* Prices */
+.switch-btn {
+    display: inline-block;
+    border: 3px solid #cccccc;
+    width: 210px;
+    height: 43px;
+    border-radius: 25px;
+    background: white;
+    z-index: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms;
+}
+.switch-btn::after {
+    content: "";
+    height: 33px;
+    width: 95px;
+    border-radius: 20px;
+    background: #9447e1;
+    top: 5px;
+    left: 5px;
+    transition-duration: 300ms;
+    position: absolute;
+    z-index: 1;
+}
+.switch-on {
+    background: #fff;
+}
+.switch-on::after {
+    left: 52%;
+    background: #9447e1;
+}
+.bl-hide {
+    display: none;
+}
+.inner-text {
+	display: flex;
+	height: 100%;
+}
+.inner-text p {
+	font-family: Lato-reg;
+	z-index: 10;
+	color: black;
+	text-transform: uppercase;
+	font-size: 12pt;
+}
+.all-prices {
+	display: flex;
+	width: 60%;
+	margin: auto;
+	justify-content: space-between;
+}
+.price-card {
+	width: 19%;
+	height: 500px;
+	border: 2px solid #bfbfbf;
+	padding: 50px 70px 0 70px;
+}
+.price-card hr {
+	border-color: #9447e1;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.price-card h5 {
+	text-transform: uppercase;
+	font-size: 20pt;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.price-card p {
+	width: 100%;
+	color: #666;
+	font-size: 15pt;
+	font-family: Lato-reg;
+	margin-bottom: 20px;
+}
+.price-card button {
+	text-transform: uppercase;
+	font-size: 11pt;
+	font-family: Lato-reg;
+
+	background: none;
+	border: 1.5px solid #9966cc;
+	border-radius: 15px;
+
+	margin-top: 20px;
+	height: 40px;
+	padding: 0 25px;
+}
+
+#basic button:hover {
+	background-color: #9966cc;
+	cursor: pointer;
+}
+#basic h5, #basic h4 {
+	color: #9447e1;
+	font-size: 20pt;
+}
+#basic h4 span {
+	font-size: 17pt;
+}
+
+#popular h4 span {
+	font-size: 17pt;
+}
+#popular h5, #popular h4 {
+	color: #c87474;
+	font-size: 20pt;
+}
+#popular hr {
+	border-color: #c87474;
+}
+#popular button {
+	border-color: #c87474;
+}
+#popular button:hover {
+	background-color: #c87474;
+	cursor: pointer;
+}
+
+#premier h5, #premier h4 {
+	color: #f59022;
+	font-size: 20pt;
+}
+#premier hr {
+	border-color: #f59022;
+}
+#premier button {
+	border-color: #f59022;
+}
+#premier button:hover {
+	background-color: #f59022;
+	cursor: pointer;
+}
+/* ______ */

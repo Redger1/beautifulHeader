@@ -1,0 +1,60 @@
+/* Fonts */
+@font-face {
+	src: url(../../fonts/Anders_.ttf);
+	font-family: Anders;
+}
+@font-face {
+	src: url(../../fonts/Lato-Bold.ttf);
+	font-family: Lato-b;
+}
+@font-face {
+	src: url(../../fonts/Lato-Regular.ttf);
+	font-family: Lato-reg;
+}
+@font-face {
+	src: url(../../fonts/Lato-Italic.ttf);
+	font-family: Lato-it;
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+/* _____ */
+
+/* Global Values */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Lato-reg;
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+/* _____________ */
+
+/* Common Values */
+.main-content {
+	color: black;
+	text-align: center;
+}
+.main-content h2 {
+	margin-top: 75px;
+	margin-bottom: 25px;
+	font-size: 30pt;
+	font-family: Lato-b;
+}
+.main-content p {
+	font-size: 16pt;
+	font-family: Georgia;
+	width: 60%;
+	margin: auto;
+}
+#lastchild {
+	margin-bottom: 70px;
+}
+#italic {
+	font-style: italic;
+	margin-bottom: 35px;
+}
+/* _____________ */

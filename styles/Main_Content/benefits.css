@@ -1,0 +1,30 @@
+/* Benefits */
+.benefits {
+	background-color: #333;
+	color: white;
+}
+.benefits h2 {
+	padding-top: 60px;
+}
+.benefits p:last-child {
+	font-size: 15pt;
+	font-family: Lato-reg;
+}
+.benefits-cards {
+	background-color: #333;
+}
+.pic {
+	height: 90px;
+	width: 90px;
+	border-radius: 100%;
+	border: 2px solid white;
+	margin: auto;
+	position: relative;
+}
+.pic img {
+	height: 40px;
+	position: absolute;
+	top: 27%;
+	left: 28%;
+}
+/* ________ */

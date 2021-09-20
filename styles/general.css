@@ -1,0 +1,18 @@
+@import url("Header/common_and_global.css");
+@import url("Header/header_info_nav.css");
+@import url("Header/header_slider.css");
+
+@import url("Footer/feedback.css");
+@import url("Footer/follow_and_contacts.css");
+@import url("Footer/latest_blog.css");
+@import url("Footer/price_description.css");
+@import url("Footer/footer.css");
+
+@import url("Main_Content/benefits.css");
+@import url("Main_Content/facts_and_jobs.css");
+@import url("Main_Content/grid_and_cards.css");
+@import url("Main_Content/prices.css");
+@import url("Main_Content/service_and_team.css");
+@import url("Main_Content/short_info.css");
+@import url("Main_Content/skills.css");
+@import url("Main_Content/slider.css");

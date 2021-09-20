@@ -1,0 +1,51 @@
+/* Follow Us */
+.follow {
+	background-color: #666;
+	padding: 40px 0;
+	color: white;
+}
+.follow h2 {
+	margin-top: 0px;
+}
+.circled-links {
+	width: 60%;
+	margin: auto;
+}
+.circled-links i {
+	color: white;
+	height: 30px;
+	width: 30px;
+	font-size: 25pt;
+	margin-right: 40px;
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.circled-links i:hover {
+	opacity: 0.5;
+}
+/* _________ */
+
+/* Contact */
+.address {
+	display: flex;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.address p {
+	font-family: Lato-reg;
+	color: #666;
+	font-size: 13pt;
+}
+.address p i {
+	margin-right: 10px;
+}
+/* _______ */
+
+/* Blank */
+.blank-black {
+	height: 300px;
+	background-color: #333;
+}
+/* _____ */

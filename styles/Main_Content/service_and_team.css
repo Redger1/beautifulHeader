@@ -1,0 +1,80 @@
+/* Our Service */
+.services {
+	display: flex;
+}
+.slider-leftSide {
+	width: 50%;
+	background-color: #666666;
+}
+.slider-leftSide p {
+	width: 85%;
+	font-size: 14pt;
+	margin-bottom: 30px;
+}
+.slider-leftSide p:first-child {
+	margin-top: 200px;
+}
+.specific-services {
+	width: 50%;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	background-color: #f9f9f9;
+}
+.specific-services h2 {
+	font-size: 24pt;
+	font-family: Lato-b;
+	margin-top: 100px;
+}
+.specific-services img {
+	height: 35px;
+	position: absolute;
+	top: 25%;
+	right: 47%;
+}
+.curr-serv {
+	position: relative;
+	height: 200px;
+}
+
+/* Team */
+.team-cards {
+	width: 60%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+}
+.spec-card {
+	margin-right: 40px;
+}
+.spec-card:last-child {
+	margin-right: 0;
+}
+.spec-card h4 {
+	font-size: 15pt;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+.spec-card h5 {
+	font-size: 14.5pt;
+	font-weight: normal;
+}
+.spec-card p {
+	width: 100%;
+	margin-top: 30px;
+	font-size: 13pt;
+}
+.spec-card .img {
+	height: 200px;
+	width: 220px;
+	background-color: #666;
+	margin: auto;
+}
+.spec-links img {
+	height: 20px;
+	margin-top: 30px;
+	margin-right: 5px;
+}
+.spec-links img:hover {
+	opacity: 0.5;
+}
+/* ____ */

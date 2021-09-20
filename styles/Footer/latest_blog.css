@@ -1,0 +1,42 @@
+/* Latest Blog */
+.latest-blog {
+	background-color: #f9f9f9;
+	padding-bottom: 50px;
+}
+.latest-blog h2 {
+	padding-top: 60px;
+}
+.blog-cards {
+	width: 60%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+}
+.blog-cards h5 {
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.blog-cards .img {
+	width: 250px;
+}
+.blog-cards p {
+	font-family: Lato-reg;
+	font-size: 13pt;
+	color: #666;
+	margin: 0;
+}
+.blog-cards p:last-child {
+	margin-top: 30px;
+}
+.inner-hr {
+	margin: 6px 0 !important;
+	font-size: 11pt !important;
+}
+
+.inner-hr img {
+	height: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+/* ___________ */

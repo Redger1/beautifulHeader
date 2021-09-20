@@ -1,0 +1,71 @@
+/* Send Email */
+.send-email {
+	margin-bottom: 100px;
+}
+.send-email p {
+	margin-top: 40px;
+}
+.input-forms {
+	width: 60%;
+	margin: auto;
+}
+.input-forms input {
+	height: 25px;
+	border: 1px solid #666;
+	border-radius: 6px;
+	padding: 7px;
+	padding-left: 20px;
+	font-size: 13pt;
+}
+.inputs-aligment {
+	width: 60%;
+	margin: auto;
+}
+.inputs-aligment button {
+	text-transform: uppercase;
+    font-size: 11pt;
+    font-family: Lato-reg;
+    background: none;
+    border: 1.5px solid #9966cc;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 40px;
+    padding: 0 25px;
+}
+.inputs-aligment button:hover {
+	cursor: pointer;
+	background-color: #9966cc;
+}
+.all-names {
+	display: flex;
+	justify-content: space-between;
+}
+.all-names input {
+	width: 41%;
+}
+.other-inputs {
+	display: flex;
+	flex-direction: column;
+}
+.other-inputs input {
+	margin-top: 30px;
+}
+.other-inputs textarea {
+	margin-top: 30px;
+	border: 1px solid #666;
+	border-radius: 6px;
+
+}
+textarea {
+	height: 150px;
+	padding: 10px;
+	padding-left: 18px;
+	font-size: 13pt;
+	resize: none;
+}
+
+::-webkit-input-placeholder {color:#666; font-family: Lato-reg; font-size: 11pt;}
+::-moz-placeholder          {color:#666; font-family: Lato-reg; font-size: 11pt;}/* Firefox 19+ */
+:-moz-placeholder           {color:#666; font-family: Lato-reg; font-size: 11pt;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#666; font-family: Lato-reg; font-size: 11pt;}
+/* __________ */

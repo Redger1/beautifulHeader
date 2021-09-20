@@ -1,0 +1,179 @@
+/* Price description */
+.accordionWrapper{
+	float: left;
+	box-sizing: border-box;
+}
+.accordionItem {
+    float: left;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Open-sans',Arial,sans-serif;
+}
+.accordionItemHeading {
+    cursor: pointer;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    padding-left: 15px;
+    color: black;
+    width: 100%;
+    border: 1px solid #9447e1;
+    -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14pt;
+    text-align: left;
+}
+.accordionItemHeading img {
+	height: 15px;
+	float: right;
+	margin-top: 3px;
+}
+.close .accordionItemContent {
+    height: 0px;
+    transition: height 0.5s ease-out;
+    -webkit-transform: scaleY(0);
+	-o-transform: scaleY(0);
+	-ms-transform: scaleY(0);
+	transform: scaleY(0);
+    float: left;
+    display: block;
+}
+.open .accordionItemContent {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #9447e1;
+    width: 100%;
+    display: block;
+
+    -webkit-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	transform: scaleY(1);
+
+    -webkit-transform-origin: top;
+	-o-transform-origin: top;
+	-ms-transform-origin: top;
+	transform-origin: top;
+
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	-o-transition: -o-transform 0.4s ease;
+	-ms-transition: -ms-transform 0.4s ease;
+	transition: transform 0.4s ease;
+
+    box-sizing: border-box;
+    border-radius: 0 0 6px 6px;
+}
+.open .accordionItemContent p {
+	width: 100%;
+	text-align: justify;
+	font-size: 14pt;
+	font-family: Lato-reg;
+	color: #666;
+}
+.open .accordionItemHeading {
+    margin: 0px;
+    border-radius: 6px 6px 0 0;
+    background-color: #9447e1;
+    color: white;
+}
+.open #plus {
+	display: none;
+}
+.close #minus {
+	display: none;
+}
+.price-descr {
+	width: 60%;
+	margin: auto;
+	margin-top: 60px;
+	display: flex;
+}
+.right-descr {
+	width: 48%;
+}
+
+	/*Tabs*/
+.left-descr {
+	width: 48%;
+	margin-left: 4%;
+}
+.tabs > input[type="radio"] {
+    display: none;
+}
+.tabs > div {
+    /* скрыть контент по умолчанию */
+    display: none;
+    border: 1px solid #9447e1;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+/* отобразить контент, связанный с выбранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+    display: block;
+}
+.tabs > label {
+	width: 28%;
+	padding: 10px;
+	padding-left: 15px;
+	background-color: #9447e1;
+	font-size: 14pt;
+	font-family: Lato-reg;
+	text-align: left;
+
+    display: inline-block;
+    
+    vertical-align: middle;
+    user-select: none;
+ 
+    border: 1px solid #9447e1;
+    border-radius: 6px 6px 0 0;
+    
+    
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+.tabs > input[type="radio"]:checked + label {
+    background-color: #fff;
+    border-bottom: 1px solid white;
+}
+.tabs > input[type="radio"]:not(:checked) + label {
+	color: white;
+}
+#content-1 {
+	border-radius: 0 0 6px 6px;
+}
+#content-1 p, #content-2 p, #content-3 p {
+	font-size: 14pt;
+	width: 100%;
+	text-align: justify;
+	padding: 10px 5px;
+	font-family: Lato-reg;
+	color: #666;
+}
+#content-1 ul, #content-2 ul, #content-3 ul {
+	font-size: 14pt;
+	width: 100%;
+	text-align: justify;
+	padding: 10px 5px;
+	font-family: Lato-reg;
+	color: #666;
+}
+#content-1 ul li:before, #content-2 ul li:before, #content-3 ul li:before {
+	content: '';
+  	width: 8px;
+  	height: 8px;
+  	border-radius: 50%;
+  	display: inline-block;
+  	text-align: center;
+  	border: 2px solid #666;
+  	margin-right: 10px;
+}
+#tab-btn-1 { float: left; }
+#tab-btn-3 { float: right; }
+/* _________________ */

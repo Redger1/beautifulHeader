@@ -1,0 +1,65 @@
+/* Grid styles */
+.grid-template {
+	display: grid;
+	grid-template-columns: repeat(6, 16.66%);
+	margin-top: 40px;
+}
+.grid-template div {
+	height: 215px;
+}
+
+.grid-template #a12 h1 {
+	font-size: 16pt;
+	text-transform: uppercase;
+	margin-top: 40px;
+	color: white;
+	font-weight: normal;
+}
+.grid-template #a12 p {
+	width: 80%;
+	text-align: center;
+	font-size: 13pt;
+	color: white;
+}
+/* ___________ */
+
+/* Card-info styles */
+.all-cards {
+	display: flex;
+	width: 60%;
+	margin: auto;
+	padding-top: 65px;
+	padding-bottom: 65px;
+
+	font-size: 16pt;
+}
+.icon {
+	background-color: #9447e1;
+	height: 90px;
+	width: 90px;
+	border-radius: 100%;
+	margin: auto;
+	position: relative;
+}
+.icon img {
+	height: 40px;
+	position: absolute;
+	top: 27%;
+	left: 28%;
+}
+.all-cards p {
+	width: 100%;
+	margin: 0;
+}
+.all-cards h4 {
+	text-transform: uppercase;
+	margin: 45px 0 40px 0;
+}
+.eye .icon {
+	background-color: white;
+	border: 3px solid #9447e1;
+}
+.eye h4 {
+	margin: 39.5px !important;
+}
+/* ________________ */
